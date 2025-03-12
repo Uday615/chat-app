@@ -1,0 +1,90 @@
+.logo {
+    display: block;
+    margin: auto;
+    width: 90px;
+    height: 90px;
+}
+h1{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+body {
+    background-color: #222; /* Dark background for contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 900px;
+    border: 2px solid #444;
+    background-color: #333;
+    margin: auto;
+    padding: 20px;
+    overflow-y: auto;
+    height: 60vh;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.message {
+    background-color: #007bff;
+    color: #fff;
+    max-width: 60%;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#send-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+#messageInp {
+    width: 50%;
+    height: 20px;
+    border-radius: 99px;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #555;
+    color: #fff;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    padding: 5px 15px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
