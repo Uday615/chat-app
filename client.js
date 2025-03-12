@@ -1,4 +1,4 @@
-const socket=io('http://localhost:8000'); // connect to the server
+const socket=io('https://chat-app-ajas.onrender.com'); // connect to the server
 const form=document.getElementById('send-container');
 const messageInput=document.getElementById('messageInp');
 const messageContainer=document.querySelector(".container");
